@@ -1,260 +1,261 @@
 :root {
-	--main-color: #2e2f42;
-	--title-color: #434455;
-	--accent-color: #4d5ae5;
-	--white-color: #ffffff;
-	--team-bgr: #f5f4fa;
-	--hover-button: #404bbf;
-	--potrf-botton-bgr: #f4f4fd;
-	--border-cards: #e7e9fc;
-	--portfolio-color-btn: #4d5ae5;
+  --main-color: #2e2f42;
+  --title-color: #434455;
+  --accent-color: #4d5ae5;
+  --white-color: #ffffff;
+  --team-bgr: #f5f4fa;
+  --hover-button: #404bbf;
+  --potrf-botton-bgr: #f4f4fd;
+  --border-cards: #e7e9fc;
+  --portfolio-color-btn: #4d5ae5;
 }
 
 /* header */
 body {
-	font-family: "Roboto", sans-serif;
-	color: var(--main-color);
-	background-color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  background-color: var(--white-color);
 }
 
 .logotype {
-	font-family: "Raleway", sans-serif;
-	color: var(--main-color);
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.33;
-	letter-spacing: 0.03em;
-	text-decoration: none;
-	text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .logo-accent {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-link {
-	text-decoration: none;
-	color: var(--main-color);
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-link:hover,
 .header-link:focus {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-cont {
-	color: var(--title-color);
-	list-style-type: none;
-	font-size: 16px;
-	letter-spacing: 0.02em;
-	line-height: 1.5;
+  color: var(--title-color);
+  list-style-type: none;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .header-communication {
-	cursor: pointer;
+  cursor: pointer;
 }
 .header-mail {
-	color: var(--title-color);
-	text-decoration: none;
+  color: var(--title-color);
+  text-decoration: none;
 }
 .header-mail:hover,
 .header-mail:focus {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 .header-tel {
-	color: var(--title-color);
-	text-decoration: none;
+  color: var(--title-color);
+  text-decoration: none;
 }
 .header-tel:hover,
 .header-tel:focus {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* header */
 /* main */
 .sec-first {
-	background-color: var(--main-color);
-	height: 600px;
+  background-color: var(--main-color);
+  height: 600px;
 }
 
 .sec-header {
-	color: var(--white-color);
-	font-weight: 700;
-	font-size: 56px;
-	line-height: 1.11;
-	/* text-align: center; */
-	letter-spacing: 0.02em;
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.11;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
 }
 .sec-button {
-	font-family: "Roboto";
-	background-color: var(--accent-color);
-	color: var(--white-color);
-	padding: 16px 32px;
-	font-weight: 500;
-	font-size: 16px;
-	letter-spacing: 0.04em;
-	line-height: 1.5;
-	border: none;
-	display: block;
-	margin: 0 auto;
+  font-family: 'Roboto';
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
 
-	cursor: pointer;
+  cursor: pointer;
 }
 .sec-button:hover,
 .sec-button:focus {
-	background-color: var(--hover-button);
-	color: var(--white-color);
+  background-color: var(--hover-button);
+  color: var(--white-color);
 }
 /* benefits */
 .visually-hidden {
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	border: 0;
-	padding: 0;
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .benefits-text {
-	list-style-type: none;
+  list-style-type: none;
 }
 .benefits-title {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .benefits-par {
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 p {
-	color: var(--title-color);
+  color: var(--title-color);
 }
 /* benefits */
 
 /* about */
 .about-header {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.1;
-	letter-spacing: 0.02em;
-	text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .about-img {
-	list-style-type: none;
+  list-style-type: none;
 }
 /* about */
 
 /* team */
 .team {
-	background-color: var(--team-bgr);
+  background-color: var(--team-bgr);
 }
 .team-header {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.1;
-	letter-spacing: 0.02em;
-	text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-cards {
-	list-style-type: none;
+  list-style-type: none;
 }
 .team-name {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .team-job {
-	color: var(--title-color);
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+  color: var(--title-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* team */
 
 /* footer */
 
 .footer {
-	background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .logo-accent2 {
-	color: var(--potrf-botton-bgr);
+  color: var(--potrf-botton-bgr);
 }
 .footer-logo-accent {
-	color: var(--potrf-botton-bgr);
+  color: var(--potrf-botton-bgr);
 }
 .footer-paragraf {
-	color: var(--border-cards);
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+  color: var(--border-cards);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* portfolio */
 /* header */
 
 .link-decor {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 /* header */
 /* list */
 .title-hidden {
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	border: 0;
-	padding: 0;
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .list-button {
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	background-color: var(--potrf-botton-bgr);
-	color: var(--portfolio-color-btn);
-	border: 1px solid var(--border-cards);
-	border-radius: 4px;
-	padding: 10px 20px;
-	cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--potrf-botton-bgr);
+  color: var(--portfolio-color-btn);
+  border: 1px solid var(--border-cards);
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 .list-button:hover,
 .list-button:focus {
-	background-color: var(--accent-color);
-	color: var(--white-color);
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .cards-decor {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .cards-title {
-	color: var(--main-color);
-	font-weight: 500;
-	font-size: 20px;
-	letter-spacing: 0.02em;
-	line-height: 1.2;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 .cards-paragraf {
-	color: var(--title-color);
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
+  color: var(--title-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

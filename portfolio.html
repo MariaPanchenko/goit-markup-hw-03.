@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header-main">
+      <div class="container header-nav-container">
         <nav class="header-nav">
           <a class="logotype" href="./index.html"
             ><span class="logo-accent">Web</span>Studio</a
@@ -35,14 +35,14 @@
           </ul>
         </nav>
         <ul class="header-cont">
-          <li>
+          <li class="header-emeil">
             <a
               class="header-mail header-communication"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-telefon">
             <a class="header-tel header-communication" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
@@ -55,19 +55,19 @@
         <div class="container">
           <h1 class="title-hidden">Список</h1>
           <ul class="list-item">
-            <li class="link-decor">
+            <li class="link-decor list-space">
               <button class="list-button" type="button">All</button>
             </li>
-            <li class="link-decor">
+            <li class="link-decor list-space">
               <button class="list-button" type="button">Web Site</button>
             </li>
-            <li class="link-decor">
+            <li class="link-decor list-space">
               <button class="list-button" type="button">App</button>
             </li>
-            <li class="link-decor">
+            <li class="link-decor list-space">
               <button class="list-button" type="button">Design</button>
             </li>
-            <li class="link-decor">
+            <li class="link-decor list-space">
               <button class="list-button" type="button">Marketing</button>
             </li>
           </ul>
@@ -80,8 +80,10 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 ><img src="images/portfolio1.jpg" width="360" alt="apps" />
-                <h2 class="cards-title">Banking App Interface Concept</h2>
-                <p class="cards-paragraf">App</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Banking App Interface Concept</h2>
+                  <p class="cards-paragraf">App</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -91,8 +93,10 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 ><img src="images/portfolio2.jpg" width="360" alt="payment" />
-                <h2 class="cards-title">Cashless Payment</h2>
-                <p class="cards-paragraf">Marketing</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Cashless Payment</h2>
+                  <p class="cards-paragraf">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -103,8 +107,10 @@
                 rel="noopener noreferrer"
               >
                 <img src="images/portfolio3.jpg" width="360" alt="notebook" />
-                <h2 class="cards-title">Meditaion App</h2>
-                <p class="cards-paragraf">App</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Meditaion App</h2>
+                  <p class="cards-paragraf">App</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -114,9 +120,11 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="images/portfolio4.jpg" width="370" alt="car" />
-                <h2 class="cards-title">Taxi Service</h2>
-                <p class="cards-paragraf">Marketing</p>
+                <img src="images/portfolio4.jpg" width="360" alt="car" />
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Taxi Service</h2>
+                  <p class="cards-paragraf">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -127,8 +135,10 @@
                 rel="noopener noreferrer"
               >
                 <img src="images/portfolio5.jpg" width="360" alt="screen" />
-                <h2 class="cards-title">Screen Illustrations</h2>
-                <p class="cards-paragraf">Design</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Screen Illustrations</h2>
+                  <p class="cards-paragraf">Design</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -139,8 +149,10 @@
                 rel="noopener noreferrer"
               >
                 <img src="images/portfolio6.jpg" width="360" alt="girl" />
-                <h2 class="cards-title">Online Courses</h2>
-                <p class="cards-paragraf">Marketing</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Online Courses</h2>
+                  <p class="cards-paragraf">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -151,8 +163,10 @@
                 rel="noopener noreferrer"
               >
                 <img src="images/portfolio7.jpg" width="360" alt="Stories" />
-                <h2 class="cards-title">Instagram Stories Concept</h2>
-                <p class="cards-paragraf">Design</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Instagram Stories Concept</h2>
+                  <p class="cards-paragraf">Design</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -163,8 +177,10 @@
                 rel="noopener noreferrer"
               >
                 <img src="images/portfolio8.jpg" width="360" alt="fruit" />
-                <h2 class="cards-title">Organic Food</h2>
-                <p class="cards-paragraf">Web Site</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Organic Food</h2>
+                  <p class="cards-paragraf">Web Site</p>
+                </div>
               </a>
             </li>
             <li class="cards-lists link-decor">
@@ -175,8 +191,10 @@
                 rel="noopener noreferrer"
               >
                 <img src="images/portfolio9.jpg" width="360" alt="coffe" />
-                <h2 class="cards-title">Fresh Coffee</h2>
-                <p class="cards-paragraf">Web Site</p>
+                <div class="cards-wrapper">
+                  <h2 class="cards-title">Fresh Coffee</h2>
+                  <p class="cards-paragraf">Web Site</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -185,7 +203,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logotype" href="./portfolio.html"
+        <a class="logotype footer-logotype" href="./portfolio.html"
           ><span class="logo-accent">Web</span
           ><span class="logo-accent2">Studio</span>
         </a>

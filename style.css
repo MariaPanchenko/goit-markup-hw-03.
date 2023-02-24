@@ -22,6 +22,11 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 /* header */
 body {
@@ -105,7 +110,6 @@ body {
 .header-mail {
   color: var(--title-color);
   text-decoration: none;
-  margin-left: 40px;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -127,6 +131,7 @@ body {
   background-color: var(--main-color);
   height: 600px;
   padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .sec-header {
@@ -135,7 +140,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.11;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.02em;
   display: block;
   margin: 0 auto;
@@ -185,6 +190,7 @@ body {
   display: flex;
 }
 .benefits-text {
+  width: 264px;
   list-style-type: none;
 }
 .benefits-text:not(:last-child) {
